@@ -28,7 +28,6 @@ twitchIRC.join('nervarien'); // Replace with your Twitch channel
   },
   prefix: 'someuser!someuser@someuser.tmi.twitch.tv',
   command: 'PRIVMSG',
-  params: ['#channel', 'Hello world!'],
-  role: 'mod'
+  params: ['#channel', 'Hello world!']
 }
 ```
