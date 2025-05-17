@@ -1,0 +1,5 @@
+{
+  "name": "twitch-irc-client",
+  "version": "1.0.0",
+  "main": "twitch-irc-client.js"
+}
