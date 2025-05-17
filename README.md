@@ -5,11 +5,11 @@ const twitchIRC = new TwitchIRC();
 
 twitchIRC.on('message', (msg) => {
   console.log(msg);
-  // msg.role => "broadcaster", "mod", "vip", "sub" or ""
+  // msg.tags.role => "broadcaster", "mod", "vip", "sub" or ""
   // msg.tags, msg.command, msg.params, etc.
 });
 
-twitchIRC.join('nervarien'); // Replace with your Twitch channel
+twitchIRC.join('channel'); // Replace with twitch channel
 ```
 
 
