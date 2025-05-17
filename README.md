@@ -1,8 +1,4 @@
 
-```
-<script src="https://cdn.jsdelivr.net/gh/zlq23/twitch-irc-client@main/twitch-irc-client.min.js"></script>
-```
-
 ### Usage
 ```
 const twitchIRC = new TwitchIRC();
